@@ -27,9 +27,19 @@
             <div class="colonna" id="menu">
                 <div class="offcanvas offcanvas-start" id="demo">
                     <div class="offcanvas-header">
-                        <h1 class="offcanvas-title">Heading</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                        </div>
+                        <button type="button" class="btn-close" id="close-menu" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="serarch">
+                        <form action="server/action.php">
+                            <input type="text" placeholder="Cerca..." list="opzioni">
+                            <datalist id="opzioni">
+                                <option value="Campionato"></option>
+                                <option value="Eventi"></option>
+                                <option value="Squadre"></option>
+                            </datalist>
+                            <input type="submit" value="Cerca">
+                        </form> 
+                    </div>
                     <div class="offcanvas-body">
                         <p>Some text lorem ipsum.</p>
                         <p>Some text lorem ipsum.</p>

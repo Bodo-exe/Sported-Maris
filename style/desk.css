@@ -68,3 +68,12 @@ body {
 .colonna-info#luogo {
     margin-left: 35px;
 }
+.offcanvas#demo {
+    background-image: url(../immagini/campo.jpeg);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.btn-close {
+    background-color: white;
+}
