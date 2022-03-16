@@ -19,9 +19,9 @@ body {
 .column {
     margin-top: 20px;
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 15px;
-    background-color: red;
+    background-color: #202020;
     text-align: center;
 }
 .row:after {
@@ -29,18 +29,24 @@ body {
     display: table;
     clear: both;
 }
-@media screen and (max-width:600px) {
+/*@media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
-}
+}*/
 #colonne-body {
     color: red;
     margin-top: 15px;
 }
-.col#testo {
+.column#testo {
     text-align: justify;
     padding: 20px;
     background-color: #202020;
-    margin: 10px;
+    margin: auto;
 }
+#sponsor {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
