@@ -47,16 +47,19 @@ body {
 }
 input#menu {
     width: 90%;
-    float: left;;
+    float: left;
+    margin-right: 15px;
 }
 #data {
-    width: 10%;
+    width: 8%;
     float: left;
+    text-align: center;
+    margin: auto;
 }
 .ora {
     float: left;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:795px){
     #data {
         display: none;
     }
