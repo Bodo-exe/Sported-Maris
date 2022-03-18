@@ -19,10 +19,12 @@ body {
 .column {
     margin-top: 20px;
     float: left;
-    width: 30%;
+    width: 28%;
     padding: 15px;
     background-color: #202020;
     text-align: center;
+    margin: auto;
+    margin-top: 15px;
 }
 .row:after {
     content: "";
@@ -40,13 +42,24 @@ body {
 }
 .column#testo {
     text-align: justify;
-    padding: 20px;
-    background-color: #202020;
-    margin: auto;
 }
 #sponsor {
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
+}
+input#menu {
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .column#cerca {
+      width: 100%;
+    }
+    .column#testo {
+        width: 70%;
+    }
+    .column#sponsor {
+        width: 25%;
+    }
 }
 
